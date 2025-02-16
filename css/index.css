@@ -1,0 +1,71 @@
+body {
+    background-color: #ffb6b0;
+    font-family: 'Arial', sans-serif;
+}
+.card-img {
+    object-fit: cover;
+    height: 250px;
+    border-radius: 10px;
+}
+.card-body {
+    padding: 20px;
+}
+.card-title {
+    font-weight: bold;
+    color: #343a40;
+}
+.card-text {
+    color: #6c757d;
+}
+.like-button {
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    color: #dc3545;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+.like-button:hover {
+    transform: scale(1.1);
+}
+.liked {
+    color: #ff1e00;
+}
+.container {
+    margin-top: 50px;
+}
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+.header-text {
+    font-size: 2rem;
+    color: #343a40;
+    font-weight: bold;
+}
+.sub-header-text {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+.card-footer {
+    border-top: 1px solid #e9ecef;
+    padding-top: 10px;
+}
+.btn-danger {
+    font-size: 1.1rem;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+.like-message {
+    color: #d31e57;
+    font-weight: bold;
+    margin-top: 10px;
+    display: none;
+}
