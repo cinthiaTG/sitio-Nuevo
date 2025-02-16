@@ -142,12 +142,6 @@
             likesCount++;
             $(button).text(`${likesCount} Likes`);
             $(button).siblings('.like-message').fadeIn();
-        } else {
-            icon.removeClass('fa-heart').addClass('fa-heart-broken');
-            $(button).removeClass('liked');
-            likesCount--;
-            $(button).text(`${likesCount} Likes`);
-            $(button).siblings('.like-message').fadeOut();
         }
     }
 </script>
